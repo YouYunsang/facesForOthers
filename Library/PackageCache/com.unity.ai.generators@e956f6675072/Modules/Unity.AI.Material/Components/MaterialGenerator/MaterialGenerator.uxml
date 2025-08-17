@@ -1,0 +1,131 @@
+<!-- GenerateUI.uxml -->
+<UXML class="flex-grow color-tab-background"  xmlns="UnityEngine.UIElements" xmlns:aitk="Unity.AI.Generators.UI" xmlns:ui="Unity.AI.Material.Components" xmlns:aitk-account="Unity.AI.Toolkit.Accounts.Components">
+    <Style src="../../../Unity.AI.Generators.UI/StyleSheets/FlexUtilities.uss" />
+    <Style src="../../../Unity.AI.Generators.UI/StyleSheets/SessionStatusBannerClasses.uss" />
+    <Style src="./MaterialGenerator.uss" />
+    <VisualElement class="flex-row flex-grow bg-light">
+        <VisualElement name="pane-container" class="flex-grow left-stack">
+            <!-- Left Pane -->
+            <VisualElement name="top-pane" style="min-height: 150px;">
+                <!-- Selected Asset Title Card -->
+                <VisualElement class="p-8-7-8-8 flex-no-shrink">
+                    <ui:SelectedAssetTitleCard />
+                </VisualElement>
+                <!-- Refinement Mode Tabs -->
+                <ui:RefinementModeTabView>
+                    <Tab label="Generate" class="border-color-dark border-top-1px" tooltip="Generate a material based on a text prompt.">
+                        <ScrollView>
+                            <!-- Model Selector Row -->
+                            <VisualElement class="flex-row items-center flex-no-shrink p-8-7-8-12 border-color-dark border-bottom-1px">
+                                <ui:SelectedModelTitleCard />
+                                <ui:ModelSelectorButton />
+                            </VisualElement>
+                            <!-- Prompt Section -->
+                            <VisualElement class="flex-no-shrink p-8-7-8-8 border-color-dark border-bottom-1px">
+                                <ui:Prompt />
+                            </VisualElement>
+                            <!-- Generate Variations Slider -->
+                            <VisualElement class="flex-no-shrink p-8-7-8-8 border-color-dark border-bottom-1px">
+                                <Label class="font-bold p-4 pb-8" text="Options"/>
+                                <ui:GenerateVariationsSlider />
+                                <ui:DimensionsDropDown class="hide" />
+                                <ui:GenerationOptions class="pt-8" />
+                            </VisualElement>
+                            <!-- Pattern Reference Section -->
+                            <VisualElement class="flex-no-shrink border-color-dark border-bottom-1px">
+                                <ui:PatternImageReference class="p-8-7-8-8" />
+                            </VisualElement>
+                            <!-- Material Mapping Section -->
+                            <VisualElement class="flex-no-shrink p-8-7-8-8 bg-light">
+                                <VisualElement class="flex-row justify-between ">
+                                    <Label class="font-bold p-4" text="Material Map Assignments" tooltip="Assign the generated material preview image to a specific input channel on your custom shader. Use the circular arrow to restore recommended defaults. To generate full PBR maps from this preview image, switch to the PBR tab."/>
+                                    <ui:MappingAutoButton />
+                                </VisualElement>
+                                <ui:TexturePropertyField label="base" map-type="Delighted" value="None"/>
+                            </VisualElement>
+                        </ScrollView>
+                        <!-- Generate Button -->
+                        <VisualElement class="flex-no-shrink p-8-7-8-8 border-color-dark border-bottom-1px border-top-1px">
+                            <!-- Session Status Banner -->
+                            <aitk-account:GeneratorsSessionStatusBanner />
+                            <ui:GenerateButton text="Generate" quote-monitor="true" />
+                        </VisualElement>
+                    </Tab>
+                    <Tab label="Upscale" class="border-color-dark border-top-1px" tooltip="Resize the selected material to achieve better clarity and resolution. Upscaling improves the material without compromising visual quality.">
+                        <ScrollView>
+                            <!-- Model Selector Row (Creative Upscale only) -->
+                            <VisualElement class="hide flex-row items-center flex-no-shrink p-8-7-8-12 border-color-dark border-bottom-1px">
+                                <ui:SelectedModelTitleCard />
+                                <ui:ModelSelectorButton />
+                            </VisualElement>
+                            <!-- Base Image -->
+                            <VisualElement class="flex-no-shrink bg-light border-color-dark border-bottom-1px">
+                                <ui:BaseImageReference name="baseImage" />
+                            </VisualElement>
+                            <!-- Material Mapping Section -->
+                            <VisualElement class="flex-no-shrink p-8-7-8-8 bg-light">
+                                <VisualElement class="flex-row justify-between ">
+                                    <Label class="font-bold p-4" text="Material Map Assignments" tooltip="Assign the generated material preview image to a specific input channel on your custom shader. Use the circular arrow to restore recommended defaults. To generate full PBR maps from this preview image, switch to the PBR tab."/>
+                                    <ui:MappingAutoButton />
+                                </VisualElement>
+                                <ui:TexturePropertyField label="base" map-type="Delighted" value="None"/>
+                            </VisualElement>
+                        </ScrollView>
+                        <VisualElement class="flex-no-shrink p-8-7-8-8 border-color-dark border-bottom-1px border-top-1px">
+                            <!-- Session Status Banner -->
+                            <aitk-account:GeneratorsSessionStatusBanner />
+                            <ui:GenerateButton text="Upscale" quote-monitor="false" />
+                        </VisualElement>
+                    </Tab>
+                    <Tab name="pbr-tab" label="PBR" class="border-color-dark border-top-1px" tooltip="Create maps to add realistic effects, such as ripples, gloss, and metallic shines.">
+                        <ScrollView>
+                            <!-- Model Selector Row -->
+                            <VisualElement class="flex-row items-center flex-no-shrink p-8-7-8-12 border-color-dark border-bottom-1px">
+                                <ui:SelectedModelTitleCard />
+                                <ui:ModelSelectorButton />
+                            </VisualElement>
+                            <!-- Image Reference Section -->
+                            <VisualElement class="flex-no-shrink border-color-dark border-bottom-1px">
+                                <ui:PromptImageReference class="p-8-7-8-8" />
+                            </VisualElement>
+                            <!-- Material Mapping Section -->
+                            <VisualElement class="flex-no-shrink p-8-7-8-8 bg-light">
+                                <VisualElement class="flex-row justify-between ">
+                                    <Label class="font-bold p-4" text="Material Map Assignments" tooltip="Assign specific PBR maps, such as normal or metallic, to input channels on your custom shader. Use the circular arrow to restore the recommended defaults."/>
+                                    <ui:MappingAutoButton />
+                                </VisualElement>
+                                <ui:TexturePropertyField label="base" map-type="Preview" value="None"/>
+                                <ui:TexturePropertyField label="delighted" map-type="Delighted" value="None"/>
+                                <ui:TexturePropertyField label="normal" map-type="Normal" value="None"/>
+                                <ui:TexturePropertyField label="height" map-type="Height" value="None"/>
+                                <ui:TexturePropertyField label="metallic" map-type="Metallic" value="None"/>
+                                <ui:TexturePropertyField label="roughness" map-type="Roughness" value="None"/>
+                                <ui:TexturePropertyField label="emission" map-type="Emission" value="None"/>
+                                <ui:TexturePropertyField label="occlusion" map-type="Occlusion" value="None"/>
+                                <ui:TexturePropertyField label="smoothness" map-type="Smoothness" value="None"/>
+                                <ui:TexturePropertyField label="metalsmoothness" map-type="MetallicSmoothness" value="None"/>
+                                <ui:TexturePropertyField label="nonmetalsmoothness" map-type="NonMetallicSmoothness" value="None"/>
+                                <ui:TexturePropertyField label="maskmap" map-type="MaskMap" value="None"/>
+                            </VisualElement>
+                        </ScrollView>
+                        <VisualElement class="flex-no-shrink p-8-7-8-8 border-color-dark border-bottom-1px border-top-1px">
+                            <!-- Session Status Banner -->
+                            <aitk-account:GeneratorsSessionStatusBanner />
+                            <ui:GenerateButton text="Generate PBR" quote-monitor="false" />
+                        </VisualElement>
+                    </Tab>
+                </ui:RefinementModeTabView>
+            </VisualElement>
+            <!-- Bottom Pane (Vertical Layout Only) -->
+            <VisualElement name="bottom-pane" class="pt-8 pl-9 pr-0 bg-medium-light vertical-layout-flex flex-bottom flex-left flex-right border-color-dark border-top-1px" style="min-height:200px;translate: 0 -1px;">
+                <aitk:Splitter name="vertical-splitter" />
+                <ui:GenerationSelector />
+            </VisualElement>
+        </VisualElement>
+        <!-- Right Section (Horizontal Layout Only) -->
+        <VisualElement name="right-section" class="flex-row flex-shrink flex-grow horizontal-layout-flex bg-medium-light pt-8 pl-9 pr-0" style="min-width: 150px;">
+            <aitk:Splitter name="horizontal-splitter" />
+            <ui:GenerationSelector asset-monitor="false" />
+        </VisualElement>
+    </VisualElement>
+</UXML>
