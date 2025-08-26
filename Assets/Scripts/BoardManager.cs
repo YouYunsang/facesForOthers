@@ -41,6 +41,8 @@ public class BoardManager : MonoBehaviour
     private PlayerProgressTracker playerProgressTracker; // PlayerProgressTracker 참조
     private ProfileBlockManager profileBlockManager;
 
+    private StressManager stressManager;
+
     private void Start()
     {
         InitializeBlockMapping();
@@ -60,6 +62,12 @@ public class BoardManager : MonoBehaviour
             return;
         }
 
+        stressManager = FindObjectOfType<StressManager>();
+        if (stressManager == null)
+        {
+            Debug.LogError("StressManager is not found in the scene.");
+        }
+
         // PlayerProgressTracker 인스턴스 찾기
         playerProgressTracker = FindObjectOfType<PlayerProgressTracker>();
         if (playerProgressTracker == null)
@@ -74,9 +82,6 @@ public class BoardManager : MonoBehaviour
             Debug.LogError("profileBlockManager is not found in the scene.");
             return;
         }
-
-        // 초기 수열 생성
-        sequenceManager.GenerateRandomSequence();
 
         // PlayerProgressTracker 초기화는 Start()에서 이미 처리됨
         playerInputSequence = new List<int>();
@@ -194,27 +199,38 @@ public class BoardManager : MonoBehaviour
 
     private System.Collections.IEnumerator HandleCorrectSequence()
     {
-        // Correct bell 사운드 재생
         PlaySound(correct_bell);
-
-        // 0.5초 대기
+        isTimerRunning = false;
+        playerProgressTracker.ResetScreenOverlay();
         yield return new WaitForSeconds(0.5f);
 
-        // 보드 초기화 및 다음 수열로 넘어가기
+        if (profileBlockManager != null)
+        {
+            profileBlockManager.OnCorrectSequence();
+        }
+
         ClearBoard();
+        // 다음 수열로 넘어가는 함수 호출
         MoveToNextSequence();
+        InitializeTimer();
     }
 
     private void MoveToNextSequence()
     {
         // 다음 수열 생성
-        sequenceManager.GenerateRandomSequence();
+        sequenceManager.AdvanceToNextSequence();
 
         // 플레이어 입력 초기화
         ResetPlayerInput();
 
         // 제한시간 초기화
         InitializeTimer();
+
+        // ProfileBlockManager의 블록 업데이트 호출
+        if (profileBlockManager != null)
+        {
+            profileBlockManager.OnCorrectSequence();
+        }
     }
 
     private void ResetPlayerInput()
@@ -331,6 +347,11 @@ public class BoardManager : MonoBehaviour
     {
         isTimerRunning = false;
         Debug.Log("Time's up! Player failed to input the sequence.");
+
+        if (stressManager != null)
+        {
+            stressManager.DecreaseStress(50f);
+        }
 
         // 잘못된 입력 처리
         playerProgressTracker.OnIncorrectInput();

@@ -35,8 +35,16 @@ public class PlayerProgressTracker : MonoBehaviour
 
     public Image screenOverlay_red;
 
+    private StressManager stressManager;
+
     private void Start()
     {
+        stressManager = FindObjectOfType<StressManager>();
+        if (stressManager == null)
+        {
+            Debug.LogError("StressManager is not found in the scene.");
+        }
+
         if (sequenceManager == null)
         {
             sequenceManager = FindObjectOfType<SequenceManager>();
@@ -126,6 +134,11 @@ public class PlayerProgressTracker : MonoBehaviour
             {
                 Debug.LogWarning("Unexpected sequence length. No score added.");
             }
+
+            if (stressManager != null)
+            {
+                stressManager.IncreaseStress(sequenceLength);
+            }
         }
         else
         {
@@ -210,10 +223,12 @@ public class PlayerProgressTracker : MonoBehaviour
     }
 
     // 게임 오버 처리
-    private void GameOver()
+    public void GameOver()
     {
+        if (isGameOver) return;
+
         isGameOver = true;
-        Debug.Log("Game Over! All HP is depleted.");
+        Debug.Log("Game Over!.");
 
         // 게임 진행 멈춤
         Time.timeScale = 0f;

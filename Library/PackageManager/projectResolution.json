@@ -1,12 +1,12 @@
 {
   "context": {
     "projectPath": "C:/Users/user/Documents/GitHub/facesForOthers/Packages",
-    "unityVersion": "6000.2.0b9"
+    "unityVersion": "6000.2.1f1"
   },
   "inputs": [
     "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Packages\\manifest.json",
     "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Packages\\packages-lock.json",
-    "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
+    "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
     "com.unity.2d.animation@12.0.2": {
@@ -52,8 +52,8 @@
     "com.unity.2d.sprite@1.0.0": {
       "name": "com.unity.2d.sprite",
       "displayName": "2D Sprite",
-      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.2d.sprite@28296e5d02fb",
-      "fingerprint": "28296e5d02fbf3ac81cc11ab1b39667f16a80778",
+      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.2d.sprite@4ac596689b15",
+      "fingerprint": "4ac596689b15d52a1c1ff6d6544cf1b76bcee30e",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
       "source": "builtin",
@@ -72,8 +72,8 @@
     "com.unity.2d.tilemap@1.0.0": {
       "name": "com.unity.2d.tilemap",
       "displayName": "2D Tilemap Editor",
-      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.2d.tilemap@089d78c497f7",
-      "fingerprint": "089d78c497f71ceb4da57790ae3ffeb30b691411",
+      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.2d.tilemap@ba4a6b72f451",
+      "fingerprint": "ba4a6b72f4518be32ffa911682e3c1f11de50354",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
       "source": "builtin",
@@ -89,23 +89,23 @@
       "source": "registry",
       "testable": false
     },
-    "com.unity.ai.assistant@1.0.0-pre.10": {
+    "com.unity.ai.assistant@1.0.0-pre.12": {
       "name": "com.unity.ai.assistant",
       "displayName": "Assistant",
-      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.ai.assistant@99ebf0cccf15",
-      "fingerprint": "99ebf0cccf1543be8e137430ffd5b2269dfe6e30",
+      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.ai.assistant@91c166a13c3b",
+      "fingerprint": "91c166a13c3bef5814c5a13a69fa442a657dd539",
       "editorCompatibility": "6000.2.0b4",
-      "version": "1.0.0-pre.10",
+      "version": "1.0.0-pre.12",
       "source": "registry",
       "testable": false
     },
-    "com.unity.ai.generators@1.0.0-pre.16": {
+    "com.unity.ai.generators@1.0.0-pre.19": {
       "name": "com.unity.ai.generators",
       "displayName": "Generators",
-      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.ai.generators@e956f6675072",
-      "fingerprint": "e956f6675072bf9f99b9cfd9511b33a1a37fa9fa",
-      "editorCompatibility": "6000.2.0b4",
-      "version": "1.0.0-pre.16",
+      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.ai.generators@49eb4eaccb48",
+      "fingerprint": "49eb4eaccb48853a1ca7a7f6853ae94c01f07ff3",
+      "editorCompatibility": "6000.2.0a1",
+      "version": "1.0.0-pre.19",
       "source": "registry",
       "testable": false
     },
@@ -149,13 +149,13 @@
       "source": "registry",
       "testable": false
     },
-    "com.unity.inputsystem@1.14.1": {
+    "com.unity.inputsystem@1.14.2": {
       "name": "com.unity.inputsystem",
       "displayName": "Input System",
-      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.inputsystem@978211393e28",
-      "fingerprint": "978211393e28699aba338ed157cef347ac565bbf",
+      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.inputsystem@be6c4fd0abf5",
+      "fingerprint": "be6c4fd0abf5b9b45f956b97294032a67f3c2f4d",
       "editorCompatibility": "2021.3.0a1",
-      "version": "1.14.1",
+      "version": "1.14.2",
       "source": "registry",
       "testable": false
     },
@@ -172,8 +172,8 @@
     "com.unity.render-pipelines.universal@17.2.0": {
       "name": "com.unity.render-pipelines.universal",
       "displayName": "Universal Render Pipeline",
-      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.render-pipelines.universal@96f07f2db2b6",
-      "fingerprint": "96f07f2db2b63970020fde1eac9b11572f88e6b3",
+      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.render-pipelines.universal@facf525283ae",
+      "fingerprint": "facf525283aebf36d711cd05210f2aafa290eed1",
       "editorCompatibility": "6000.2.0a1",
       "version": "17.2.0",
       "source": "builtin",
@@ -182,28 +182,28 @@
     "com.unity.test-framework@1.5.1": {
       "name": "com.unity.test-framework",
       "displayName": "Test Framework",
-      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.test-framework@63d98114e53c",
-      "fingerprint": "63d98114e53c588930e6653200e629d1542502d0",
+      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.test-framework@a6f5be5f149c",
+      "fingerprint": "a6f5be5f149c799640cce1ac6aa4057426adc0c7",
       "editorCompatibility": "2022.3.0a1",
       "version": "1.5.1",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.timeline@1.8.8": {
+    "com.unity.timeline@1.8.9": {
       "name": "com.unity.timeline",
       "displayName": "Timeline",
-      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.timeline@fa3a0bab2b90",
-      "fingerprint": "fa3a0bab2b909389f8e6c20d5ff275c9e15ae0a2",
+      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.timeline@6b9e48457ddb",
+      "fingerprint": "6b9e48457ddb4f64813d77fd77efc79a8f3102ae",
       "editorCompatibility": "2021.3.0a1",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "source": "registry",
       "testable": false
     },
     "com.unity.ugui@2.0.0": {
       "name": "com.unity.ugui",
       "displayName": "Unity UI",
-      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.ugui@ecde93d85e93",
-      "fingerprint": "ecde93d85e93c0447316cdf9458a178183eda66f",
+      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.ugui@80da3b035d6b",
+      "fingerprint": "80da3b035d6b6df2ec3900d3eb384a0a4e79cffd",
       "editorCompatibility": "2019.2.0a1",
       "version": "2.0.0",
       "source": "builtin",
@@ -222,7 +222,7 @@
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "displayName": "Accessibility",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.accessibility",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.accessibility",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -230,7 +230,7 @@
     "com.unity.modules.ai@1.0.0": {
       "name": "com.unity.modules.ai",
       "displayName": "AI",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ai",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ai",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -238,7 +238,7 @@
     "com.unity.modules.androidjni@1.0.0": {
       "name": "com.unity.modules.androidjni",
       "displayName": "Android JNI",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.androidjni",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.androidjni",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -246,7 +246,7 @@
     "com.unity.modules.animation@1.0.0": {
       "name": "com.unity.modules.animation",
       "displayName": "Animation",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.animation",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.animation",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -254,7 +254,7 @@
     "com.unity.modules.assetbundle@1.0.0": {
       "name": "com.unity.modules.assetbundle",
       "displayName": "Asset Bundle",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.assetbundle",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.assetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -262,7 +262,7 @@
     "com.unity.modules.audio@1.0.0": {
       "name": "com.unity.modules.audio",
       "displayName": "Audio",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.audio",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.audio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -270,7 +270,7 @@
     "com.unity.modules.cloth@1.0.0": {
       "name": "com.unity.modules.cloth",
       "displayName": "Cloth",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.cloth",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.cloth",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -278,7 +278,7 @@
     "com.unity.modules.director@1.0.0": {
       "name": "com.unity.modules.director",
       "displayName": "Director",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.director",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.director",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -286,7 +286,7 @@
     "com.unity.modules.imageconversion@1.0.0": {
       "name": "com.unity.modules.imageconversion",
       "displayName": "Image Conversion",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imageconversion",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imageconversion",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -294,7 +294,7 @@
     "com.unity.modules.imgui@1.0.0": {
       "name": "com.unity.modules.imgui",
       "displayName": "IMGUI",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imgui",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imgui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -302,7 +302,7 @@
     "com.unity.modules.jsonserialize@1.0.0": {
       "name": "com.unity.modules.jsonserialize",
       "displayName": "JSONSerialize",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.jsonserialize",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.jsonserialize",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -310,7 +310,7 @@
     "com.unity.modules.particlesystem@1.0.0": {
       "name": "com.unity.modules.particlesystem",
       "displayName": "Particle System",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.particlesystem",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.particlesystem",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -318,7 +318,7 @@
     "com.unity.modules.physics@1.0.0": {
       "name": "com.unity.modules.physics",
       "displayName": "Physics",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -326,7 +326,7 @@
     "com.unity.modules.physics2d@1.0.0": {
       "name": "com.unity.modules.physics2d",
       "displayName": "Physics 2D",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics2d",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics2d",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -334,7 +334,7 @@
     "com.unity.modules.screencapture@1.0.0": {
       "name": "com.unity.modules.screencapture",
       "displayName": "Screen Capture",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.screencapture",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.screencapture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -342,7 +342,7 @@
     "com.unity.modules.terrain@1.0.0": {
       "name": "com.unity.modules.terrain",
       "displayName": "Terrain",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrain",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrain",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -350,7 +350,7 @@
     "com.unity.modules.terrainphysics@1.0.0": {
       "name": "com.unity.modules.terrainphysics",
       "displayName": "Terrain Physics",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrainphysics",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrainphysics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -358,7 +358,7 @@
     "com.unity.modules.tilemap@1.0.0": {
       "name": "com.unity.modules.tilemap",
       "displayName": "Tilemap",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.tilemap",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.tilemap",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -366,7 +366,7 @@
     "com.unity.modules.ui@1.0.0": {
       "name": "com.unity.modules.ui",
       "displayName": "UI",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ui",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -374,7 +374,7 @@
     "com.unity.modules.uielements@1.0.0": {
       "name": "com.unity.modules.uielements",
       "displayName": "UIElements",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.uielements",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.uielements",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -382,7 +382,7 @@
     "com.unity.modules.umbra@1.0.0": {
       "name": "com.unity.modules.umbra",
       "displayName": "Umbra",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.umbra",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.umbra",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -390,7 +390,7 @@
     "com.unity.modules.unityanalytics@1.0.0": {
       "name": "com.unity.modules.unityanalytics",
       "displayName": "Unity Analytics",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unityanalytics",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unityanalytics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -398,7 +398,7 @@
     "com.unity.modules.unitywebrequest@1.0.0": {
       "name": "com.unity.modules.unitywebrequest",
       "displayName": "Unity Web Request",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequest",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequest",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -406,7 +406,7 @@
     "com.unity.modules.unitywebrequestassetbundle@1.0.0": {
       "name": "com.unity.modules.unitywebrequestassetbundle",
       "displayName": "Unity Web Request Asset Bundle",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestassetbundle",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestassetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -414,7 +414,7 @@
     "com.unity.modules.unitywebrequestaudio@1.0.0": {
       "name": "com.unity.modules.unitywebrequestaudio",
       "displayName": "Unity Web Request Audio",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestaudio",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestaudio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -422,7 +422,7 @@
     "com.unity.modules.unitywebrequesttexture@1.0.0": {
       "name": "com.unity.modules.unitywebrequesttexture",
       "displayName": "Unity Web Request Texture",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequesttexture",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequesttexture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -430,7 +430,7 @@
     "com.unity.modules.unitywebrequestwww@1.0.0": {
       "name": "com.unity.modules.unitywebrequestwww",
       "displayName": "Unity Web Request WWW",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestwww",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestwww",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -438,7 +438,7 @@
     "com.unity.modules.vehicles@1.0.0": {
       "name": "com.unity.modules.vehicles",
       "displayName": "Vehicles",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vehicles",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vehicles",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -446,7 +446,7 @@
     "com.unity.modules.video@1.0.0": {
       "name": "com.unity.modules.video",
       "displayName": "Video",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.video",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.video",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -454,7 +454,7 @@
     "com.unity.modules.vr@1.0.0": {
       "name": "com.unity.modules.vr",
       "displayName": "VR",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vr",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -462,7 +462,7 @@
     "com.unity.modules.wind@1.0.0": {
       "name": "com.unity.modules.wind",
       "displayName": "Wind",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.wind",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.wind",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -470,7 +470,7 @@
     "com.unity.modules.xr@1.0.0": {
       "name": "com.unity.modules.xr",
       "displayName": "XR",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.xr",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.xr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -478,7 +478,7 @@
     "com.unity.modules.subsystems@1.0.0": {
       "name": "com.unity.modules.subsystems",
       "displayName": "Subsystems",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.subsystems",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.subsystems",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -486,7 +486,7 @@
     "com.unity.modules.hierarchycore@1.0.0": {
       "name": "com.unity.modules.hierarchycore",
       "displayName": "Hierarchy Core",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.0b9\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.hierarchycore",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.1f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.hierarchycore",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -504,8 +504,8 @@
     "com.unity.render-pipelines.core@17.2.0": {
       "name": "com.unity.render-pipelines.core",
       "displayName": "Scriptable Render Pipeline Core",
-      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.render-pipelines.core@a0d4832bc90e",
-      "fingerprint": "a0d4832bc90eab8ee9d986b92f5a2b65a61f8f86",
+      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.render-pipelines.core@609b19816fd2",
+      "fingerprint": "609b19816fd255e06290637a743a23085dbde6de",
       "editorCompatibility": "6000.2.0a1",
       "version": "17.2.0",
       "source": "builtin",
@@ -514,8 +514,8 @@
     "com.unity.shadergraph@17.2.0": {
       "name": "com.unity.shadergraph",
       "displayName": "Shader Graph",
-      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.shadergraph@d54196c2b36d",
-      "fingerprint": "d54196c2b36d9c3ded7357cf705dc6ea2efad131",
+      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.shadergraph@844e9247af82",
+      "fingerprint": "844e9247af8212b592252c83949e35127bce08e9",
       "editorCompatibility": "6000.2.0a1",
       "version": "17.2.0",
       "source": "builtin",
@@ -531,13 +531,13 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.burst@1.8.23": {
+    "com.unity.burst@1.8.24": {
       "name": "com.unity.burst",
       "displayName": "Burst",
-      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.burst@6aff1dd08a0c",
-      "fingerprint": "6aff1dd08a0c2f92ddb7f56ec033a5cb88967056",
+      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.burst@f7a407abf4d5",
+      "fingerprint": "f7a407abf4d5abf19ce630824dcde261e02ed97e",
       "editorCompatibility": "2021.3.0a1",
-      "version": "1.8.23",
+      "version": "1.8.24",
       "source": "registry",
       "testable": false
     },
@@ -551,13 +551,13 @@
       "source": "registry",
       "testable": false
     },
-    "com.unity.ai.toolkit@1.0.0-pre.16": {
+    "com.unity.ai.toolkit@1.0.0-pre.19": {
       "name": "com.unity.ai.toolkit",
       "displayName": "AI Toolkit",
-      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.ai.toolkit@42d7a2054fe9",
-      "fingerprint": "42d7a2054fe92dc4816913febd1b6450a55c7673",
-      "editorCompatibility": "6000.2.0b4",
-      "version": "1.0.0-pre.16",
+      "resolvedPath": "C:\\Users\\user\\Documents\\GitHub\\facesForOthers\\Library\\PackageCache\\com.unity.ai.toolkit@493fe336b8c1",
+      "fingerprint": "493fe336b8c1049873d9a70a76ba3c04a33dd870",
+      "editorCompatibility": "6000.2.0a1",
+      "version": "1.0.0-pre.19",
       "source": "registry",
       "testable": false
     },
